@@ -1,0 +1,79 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"62 /opt/microchip/xc8/v1.36/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.36/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /opt/microchip/xc8/v1.36/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /opt/microchip/xc8/v1.36/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /opt/microchip/xc8/v1.36/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 /opt/microchip/xc8/v1.36/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /opt/microchip/xc8/v1.36/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.36/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.36/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"14 /home/berry/MPLABXProjects/HelloWorld.X/main.c
+[v _delayzz delayzz `(v  1 e 1 0 ]
+"24
+[v _main main `(v  1 e 1 0 ]
+[s S22 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3417 /opt/microchip/xc8/v1.36/include/pic18f4550.h
+[s S31 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S39 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S42 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S45 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S48 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S51 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S54 . 1 `S22 1 . 1 0 `S31 1 . 1 0 `S33 1 . 1 0 `S36 1 . 1 0 `S39 1 . 1 0 `S42 1 . 1 0 `S45 1 . 1 0 `S48 1 . 1 0 `S51 1 . 1 0 ]
+[v _LATBbits LATBbits `VES54  1 e 1 @3978 ]
+"3975
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"24 /home/berry/MPLABXProjects/HelloWorld.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"41
+} 0
+"14
+[v _delayzz delayzz `(v  1 e 1 0 ]
+{
+"15
+[v delayzz@j j `i  1 a 2 2 ]
+[v delayzz@i i `i  1 a 2 0 ]
+"19
+} 0
